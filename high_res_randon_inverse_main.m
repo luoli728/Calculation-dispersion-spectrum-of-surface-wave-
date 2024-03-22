@@ -61,11 +61,8 @@ df=1/dt/nt;
 %
 % Lai,C.G.(1998)'Simultaneous Inversion of Rayleigh Phase Velocity and
 % Attenuation for Near-Surface Site Characterization'.
-bos = getbos(vs_initial,vp_initial);
-DV = 1;   
-moden=1;
-vr1= mat_disperse(h_initial , rho, vp_initial, vs_initial, freq);
 
+load 'Theoretical Dispersion Curve.mat'
 
 %%The dispersion energy mapping (normal)
 %%Tuap--
